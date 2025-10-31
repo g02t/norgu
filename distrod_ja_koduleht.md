@@ -115,46 +115,45 @@
 ## Knoppix - https://knoppix.net/
 ### Kanotix - https://www.kanotix.com/changelang-eng.html
 ## Omoikane Arma - https://www.omoikane.co.jp/product/
-# Red Hat Enterprise Linux - 
-## EuroLinux - 
-## Rocky Linux - 
-## AlmaLinux - 
-## Oracle Linux - 
-## Endian - 
-## Scientific Linux - 
-### EuroLinux - 
-## CERN - 
-## CentOS - 
-### CentOS Stream - 
-### Baruwa - 
-### NethServer - 
-### Rockstor - 
-### BlueOnyx - 
-### Elastix - 
-## Springdale Linux - 
-## Fedora - 
-### Quebes OS - 
-### Moblin 2 - 
-#### MeeGo - 
-##### Mer - 
-###### Sailfish OS - 
-##### Tizen - 
-### Ojuba - 
-### Amahi - 
-### NST - 
-## SuliX - 
-## AnNyung - 
-## Berry - 
-## ClearOS - 
-## Miracle - 
-### Asianux - 
-## BU Linux - 
-## Linpus - 
-## Red Flag - 
-## Vine - 
-## SME Server - 
-## fermi - 
-## Mandriva - 
+# Red Hat Enterprise Linux - https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux
+## EuroLinux - https://euro-linux.com/en/ Discontiued
+## Rocky Linux - https://rockylinux.org/
+## AlmaLinux - https://almalinux.org/
+## Oracle Linux - https://www.oracle.com/linux/
+## Endian - https://www.endian.com/en/secure-digital-platform/security-gateways/endianos/
+## Scientific Linux - https://scientificlinux.org/
+## CERN - https://linux.web.cern.ch/
+## CentOS - https://www.centos.org/
+### CentOS Stream - https://www.centos.org/centos-stream/
+### Baruwa - https://docs.baruwa.com/index.html#
+### NethServer - https://docs.nethserver.org/projects/ns8/en/latest/introduction.html
+### Rockstor - https://rockstor.com/
+### BlueOnyx - https://www.blueonyx.it/
+### Elastix - https://elastix.dev/index.php
+## Springdale Linux - https://springdale.math.ias.edu/
+## Fedora - https://fedoraproject.org/
+### Quebes OS - https://www.qubes-os.org/
+### Moblin 2 - https://en.wikipedia.org/wiki/Moblin
+#### MeeGo - discontinued
+##### Mer - https://wiki.merproject.org/wiki/Main_Page
+###### Sailfish OS - https://sailfishos.org/
+##### Tizen - https://www.tizen.org/
+### Ojuba - https://ojuba.org/
+### Amahi - https://www.amahi.org/
+### NST - https://www.networksecuritytoolkit.org/nst/index.html
+## SuliX - http://www.sulix.hu/ - discontinued
+## AnNyung - https://annyung.oops.org/ - discontinued
+## Berry - https://berry-lab.net/
+## ClearOS - https://clearos.com/
+## Miracle - https://www.miraclelinux.com/
+### Asianux - https://www.cybertrust.co.jp/miracle-linux/ - discontinued
+## BU Linux - https://www.bu.edu/computing/linux/installation.shtml
+## Linpus - https://en.wikipedia.org/wiki/Linpus_Linux - discontinued
+## Red Flag - https://en.wikipedia.org/wiki/Red_Flag_Linux
+## Vine - https://vinelinux.org/
+## SME Server - https://www.koozali.org/
+## fermi - https://scientificlinux.org/at-fermilab/
+## Mandriva - Discontinued
 ### OpenMandriva Lx - 
 ### ROSA - 
 ### Magela - 
@@ -162,7 +161,7 @@
 ### PCLinuxOS - 
 ### ALT - 
 ## PLD - 
-# Jurix - 
+# Jurix - discontinued
 ## openSUSE - 
 ### Rockstor - 
 ### EasyNas - 
