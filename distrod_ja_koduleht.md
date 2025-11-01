@@ -154,114 +154,114 @@
 ## SME Server - https://www.koozali.org/
 ## fermi - https://scientificlinux.org/at-fermilab/
 ## Mandriva - Discontinued
-### OpenMandriva Lx - 
-### ROSA - 
-### Magela - 
-### BlackPanther - 
-### PCLinuxOS - 
-### ALT - 
-## PLD - 
+### OpenMandriva Lx - https://www.openmandriva.org/
+### ROSA - https://rosa.ru/
+### Mageia - https://www.mageia.org/en/
+### BlackPanther - https://www.blackpantheros.eu/
+### PCLinuxOS - https://pclinuxos.com/
+### ALT - https://en.altlinux.org/Main_Page
+## PLD - https://www.pld-linux.org/
 # Jurix - discontinued
-## openSUSE - 
-### Rockstor - 
-### EasyNas - 
-### GeckoLinux - 
-### SUSE Linux Enterprise Desktop - 
-# Gentoo - 
-## wtfplay-live - 
-## Porteuss Kiosk - 
-## Daphile - 
-## Chromium OS - 
-### NayuOS - 
-### CloudReady - 
-### Container Linux - 
-#### Flatcar Container Linux - 
-## Funtoo - 
-## Calculate - 
-## Sabayon - 
-## Pentoo - 
-# Arch Linux - 
-## SystemRescue - 
-## Arch Linux 32 - 
-## ArcoLinux - 
-## Artix - 
-## Hyperbola - 
-## ARCHLabs - 
-## Obarun - 
-## Audiophile Linux - 
-## BlackArch - 
-## BBQLinux - 
-## Bluestar Linux - 
-## Manjaro - 
-### Netrunner Rolling - 
-## Parabola - 
-## ArchBang - 
-## Arch Linux ARM - 
-## LinHES - 
-# KaOS - 
+## openSUSE - https://www.opensuse.org/
+### Rockstor - https://rockstor.com/ - mitte gta tegija A-ga(rockstar) vaid O-ga rockstor
+### EasyNas - https://www.easynas.org/
+### GeckoLinux - https://geckolinux.github.io/
+### SUSE Linux Enterprise Desktop - https://www.suse.com/products/desktop/
+# Gentoo - https://www.gentoo.org/
+## wtfplay-live - http://wtfplay-project.org/
+## Porteuss Kiosk - https://porteus-kiosk.org/
+## Daphile - https://www.daphile.com/index.html
+## Chromium OS - https://www.chromium.org/chromium-os/
+### NayuOS - https://nayuos.nexedi.com/
+### CloudReady - Aquired by google sends you to chromium os - https://www.neverware.com/
+### Container Linux - https://linuxcontainers.org/
+#### Flatcar Container Linux - https://www.flatcar.org/
+## Funtoo - https://www.funtoo.org/Welcome
+## Calculate - https://www.calculate-linux.org/
+## Sabayon - https://sabayon.github.io/sabayon-website-next/
+## Pentoo - https://pentoo.org/
+# Arch Linux - https://archlinux.org/
+## SystemRescue - https://www.system-rescue.org/
+## Arch Linux 32 - https://archlinux32.org/
+## ArcoLinux - https://arcolinux.com/
+## Artix - https://artixlinux.org/
+## Hyperbola - https://www.hyperbola.info/
+## ARCHLabs - discontinued - https://archlabs.github.io/
+## Obarun - https://web.obarun.org/
+## Audiophile Linux - https://www.ap-linux.com/
+## BlackArch - https://www.blackarch.org/
+## BBQLinux - Official site oli mingi example webpage aga siin on vist ok https://sourceforge.net/projects/bbqlinux/
+## Bluestar Linux - https://sourceforge.net/projects/bluestarlinux/
+## Manjaro - https://manjaro.org/
+### Netrunner Rolling - https://www.netrunner.com/netrunner-rolling-release/
+## Parabola - https://www.parabola.nu/
+## GreenBang - https://archbang.org/
+## Arch Linux ARM - https://archlinuxarm.org/
+## LinHES - http://linhes.org/
+# KaOS - https://kaosx.us/
 # Linux Router Project - 
-## LEAF - 
-# uClinux - 
-# ROCK - 
-## T2 - 
-# Linux From Scratch - 
-## AryaLinux - 
-## KaarPux - 
-## NuTyX - 
-# SmoothWall Express - 
-## EPCop - 
-### IPFire - 
-# CRUX - 
-# Openwall - 
-# OpenWRT - 
-# NetStation - 
-## Thinstation - 
-# Sorcerer - 
-## Source Mage - 
-## Lunar Linux - 
-# LinuxConsole - 
-# GoboLinux - 
-# Puppy - 
-## Simplicity - 
-# NixOS - 
-# Guix System - 
-# Paldo - 
-# BrazilFW - 
-# Ophcrack - 
-# Alpine Linux - 
-## PostmarketOS - 
-# Zeroshell - 
-# SliTaz - 
-## Tiny SliTaz - 
-# Openmamba - 
-# Ångström - 
-# PLoP - 
-# VoidLinux - 
-# Exherbo - 
-# Tiny Core - 
-## dCore - 
-## piCorePlayer - 
-# Dragora - 
-# webOS - 
-## LuneOS - 
-# OpenELEC - 
-## LibreELEC - 
-## Lakka - 
-# 4M - 
-# noop - 
-# Bedrok - 
-# AOSC OS - 
-# Minimal Linux Live - 
-# Pisi Linux - 
-# Solus - 
-# Clear Linux - 
-# Super Grub2 Disk - 
-# OviOS - 
-# Astreoid OS - 
-# Batocera - 
-# AOSP - 
-## GrapheneOS - 
-## OmniROM - 
-## Android-x86 - 
-## CyanogenMod - 
-### LineageOS - 
+## LEAF - https://leaf.zetam.org/
+# uClinux - https://en.wikipedia.org/wiki/%CE%9CClinux - pealeht on ohtlik see on ohutu.
+# ROCK - Discontiued
+## T2 - https://wiki.t2linux.org/
+# Linux From Scratch - https://www.linuxfromscratch.org/
+## AryaLinux - https://sourceforge.net/projects/aryalinux/
+## KaarPux - http://www.kaarpux.kaarposoft.dk/
+## NuTyX - https://www.nutyx.org/en/
+# SmoothWall Express - https://smoothwall.org/
+## EPCop - https://www.ipcop.org/ - discontinued vist
+### IPFire - https://www.ipfire.org/
+# CRUX - https://crux.nu/
+# Openwall - https://www.openwall.com/
+# OpenWRT - https://openwrt.org/
+# NetStation - https://netstation.sourceforge.net/index.html
+## Thinstation - https://www.thinstation.org/
+# Sorcerer - discontinued
+## Source Mage - https://sourcemage.org/ - discontiued
+## Lunar Linux - https://www.lunar-linux.org/
+# LinuxConsole - https://www.linuxconsole.org/ - vist discontinued
+# GoboLinux - https://gobolinux.org/
+# Puppy - https://puppylinux-woof-ce.github.io/
+## Simplicity - https://sourceforge.net/projects/simplicitylinux/ - discontiued
+# NixOS - https://nixos.org/
+# Guix System - https://guix.gnu.org/
+# Paldo - https://www.paldo.org/
+# BrazilFW - https://sourceforge.net/projects/brazilfw/
+# Ophcrack - https://ophcrack.sourceforge.io/
+# Alpine Linux - https://www.alpinelinux.org/
+## PostmarketOS - https://postmarketos.org/
+# Zeroshell - https://en.wikipedia.org/wiki/Zeroshell - discontinued
+# SliTaz - https://slitaz.org/en/
+## Tiny SliTaz - https://tiny.slitaz.org/
+# Openmamba - https://openmamba.org/en/
+# Ångström - discontinued - https://en.wikipedia.org/wiki/%C3%85ngstr%C3%B6m_distribution
+# PLoP - https://www.plop.at/en/ploplinux/index.html
+# VoidLinux - https://voidlinux.org/
+# Exherbo - https://voidlinux.org/
+# Tiny Core - http://tinycorelinux.net/
+## dCore - https://wiki.tinycorelinux.net/doku.php?id=dcore:welcome
+## piCorePlayer - https://www.picoreplayer.org/
+# Dragora - http://www.dragora.org/
+# webOS - https://www.webosose.org/
+## LuneOS - https://en.wikipedia.org/wiki/LuneOS
+# OpenELEC - discontinued - https://en.wikipedia.org/wiki/OpenELEC
+## LibreELEC - https://libreelec.tv/
+## Lakka - https://www.lakka.tv/
+# 4M - https://4mlinux.com/index.php?page=home
+# noop - https://linux.softpedia.com/get/System/Operating-Systems/Linux-Distributions/noop-linux-92856.shtml - tundub et on discontinued
+# Bedrock - https://bedrocklinux.org/
+# AOSC OS - https://wiki.aosc.io/aosc-os/
+# Minimal Linux Live - https://github.com/ivandavidov/minimal
+# Pisi Linux - https://pisilinux.org/
+# Solus - https://getsol.us/
+# Clear Linux - https://www.clearlinux.org/
+# Super Grub2 Disk - https://www.supergrubdisk.org/super-grub2-disk/
+# OviOS - https://www.ovios.org/
+# Astreoid OS - https://asteroidos.org/
+# Batocera - https://batocera.org/
+# AOSP - https://source.android.com/
+## GrapheneOS - https://grapheneos.org/
+## OmniROM - https://omnirom.org/
+## Android-x86 - https://www.android-x86.org/
+## CyanogenMod - discontinued https://en.wikipedia.org/wiki/CyanogenMod
+### LineageOS - https://lineageos.org/
