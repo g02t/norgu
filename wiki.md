@@ -1,4 +1,4 @@
-# NORGU wiki
+# WIKI
 
 Jagasime koormuse järgnevalt:
 <br>
