@@ -5,8 +5,8 @@ Jagasime koormuse järgnevalt:
 <br>
 Pealeht - kõik panustavad võrdselt
 <br>
-Kasutajasõbralikkuse vaheleht - 
+Kasutajasõbralikkuse vaheleht - Raimond
 <br>
-Serverite vaheleht - 
+Serverite vaheleht - Tim
 <br>
-Mängude vaheleht - 
+Mängude vaheleht - Henry
