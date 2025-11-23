@@ -1,4 +1,4 @@
-p1 {
+p1, p3 {
     font-size: 130%;
     color: white;
     font-family: arial
@@ -25,7 +25,7 @@ h1 {
     font-size: 300%
 }
 
-ul {
+ul1 {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -33,18 +33,18 @@ ul {
   display: flex;
 }
 
-ul li a {
+ul1 li a {
   display: block;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-ul li a:hover:not(.active) {
+ul1 li a:hover:not(.active) {
   background-color: #111111;
 }
 
-ul li a.active {
+ul1 li a.active {
   background-color: #115d41;
 }
 
