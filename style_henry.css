@@ -1,166 +1,109 @@
-/* navbar */
-
-ul1 {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #342437;
-  display: flex;
+body {
+    background-color: #343e4f;
+    color: white; 
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
 
-ul1 li a {
-  display: block;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
 }
 
-ul1 li a:hover:not(.active) {
-  background-color: #111111;
-}
-
-ul1 li a.active {
-  background-color: #115d41;
-}
-
-a {
-    font-family: arial
-}
-
-/* navbar lõpeb */
-
-
-/* Siit algab kastide disain */
-
-div.S {
-    background-color: rgba(204, 102, 102, 0.958);
-    width: 100%;
-    padding: 70px;
-    box-sizing: border-box;
-    position:relative ;
+/* Navbar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #342437;
     display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
-div.A {
-    background-color: rgba(255, 191, 127, 0.884);
-    width: 100%;
-    padding: 70px;
-    box-sizing: border-box;
-    position:relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-div.B {
-    background-color: rgba(255, 223, 127, 0.96);
-    width: 100%;
-    padding: 70px;
-    box-sizing: border-box;
-    position:relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-div.C {
-    background-color: rgb(255, 255, 127, 0.9);
-    width: 100%;
-    padding: 70px;
-    box-sizing: border-box;
-    position:relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-div.D {
-    background-color: rgba(180, 220, 130, 0.7);
-    width: 100%;
-    padding: 70px;
-    box-sizing: border-box;
-    position:relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/* Nüüd määran kastis oleva tähe stiili */
-
-h10 {
-    
-    color: rgba(255, 255, 255, 0.8);
-    font-family: arial;
-    font-size: 1200%
-
-}
-
-
-/* Siin panen paika positsioonid kus distrode nimed võiksid kastis paikneda */
-
-.pos1 {
-    
-    top: 10%; left: 15%
-}
-
-.pos2 {
-    
-    top: 15%; right: 30%;
-   
-}
-
-.pos3 {
-    
-    bottom: 12%; left: 15%
-}
-
-.pos4 {
-    
-    bottom: 10%; right: 20%
-}
-
-.pos5 {
-    
-    top: 45%; left: 5%
-}
-
-.pos6 {
-    
-    top: 8%; left: 45%
-}
-
-.pos7 {
-    
-    bottom: 8%; left: 45%
-}
-
-.pos8 {
-    
-    top: 45%; right: 10%
-}
-
-.pos9 {
-    
-    top: 50%; left: 30%
-}
-
-
-/* Määran distro linkide stiili */
-
-.lingistiil {
-    font-size: 140%;
-    color: black;
-    font-family: arial;
-    position: absolute;
+ul.navbar li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
     text-decoration: none;
+    font-family: Arial;
 }
 
-.lingistiil:hover {
+ul.navbar li a:hover:not(.active) {
+    background-color: #111111;
+}
+
+ul.navbar li a.active {
+    background-color: #115d41;
+}
+
+/* Info kast */
+#info-box {
+    margin-top: 30px; /* Jätab veidi ruumi tier-listi ja info vahele */
+}
+#info-box h2 {
+    color: #CC6666;
+}
+
+/* Tier kastide ülddisain */
+.tier {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    position: relative;
+}
+
+/* Tieride värvid */
+.S { background-color: rgba(204, 102, 102, 0.958); }
+.A { background-color: rgba(255, 191, 127, 0.884); }
+.B { background-color: rgba(255, 223, 127, 0.96); }
+.C { background-color: rgb(255, 255, 127, 0.9); }
+.D { background-color: rgba(180, 220, 130, 0.7); }
+
+/* Suur tieri täht keskel */
+.rank-letter {
+    position: absolute; /* Asetab tähe tieri keskele */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 250px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.3); /* Läbipaistev valge */
+    pointer-events: none; /* Ei takista klikke nimedel */
+    z-index: 1; /* Hoiab tähe nimede taga */
+}
+
+/* Distrode nimekiri kasti sees */
+.distro-list {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    padding: 20px; /* Sisemine tühimik */
+    z-index: 2; /* Hoiab nimed tähe ees */
+    width: 100%;
+}
+
+/* Lingi/nupu stiil */
+.distro-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: Arial;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.2s, text-shadow 0.2s;
+}
+
+.distro-btn:hover {
     color: rgb(122, 24, 68);
     text-shadow: 1px 1px 2px white;
 }
