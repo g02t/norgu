@@ -8,6 +8,7 @@ html {
   font-family: arial
 }
 
+/* navbar */
 
 ul {
   list-style-type: none;
@@ -31,3 +32,5 @@ ul li a:hover:not(.active) {
 ul li a.active {
   background-color: #115d41;
 }
+
+/* navbar lõpeb */

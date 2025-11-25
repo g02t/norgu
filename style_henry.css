@@ -1,3 +1,5 @@
+/* navbar */
+
 ul1 {
   list-style-type: none;
   margin: 0;
@@ -23,4 +25,142 @@ ul1 li a.active {
 
 a {
     font-family: arial
+}
+
+/* navbar lõpeb */
+
+
+/* Siit algab kastide disain */
+
+div.S {
+    background-color: rgba(204, 102, 102, 0.958);
+    width: 100%;
+    padding: 70px;
+    box-sizing: border-box;
+    position:relative ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.A {
+    background-color: rgba(255, 191, 127, 0.884);
+    width: 100%;
+    padding: 70px;
+    box-sizing: border-box;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div.B {
+    background-color: rgba(255, 223, 127, 0.96);
+    width: 100%;
+    padding: 70px;
+    box-sizing: border-box;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.C {
+    background-color: rgb(255, 255, 127, 0.9);
+    width: 100%;
+    padding: 70px;
+    box-sizing: border-box;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.D {
+    background-color: rgba(180, 220, 130, 0.7);
+    width: 100%;
+    padding: 70px;
+    box-sizing: border-box;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Nüüd määran kastis oleva tähe stiili */
+
+h10 {
+    
+    color: rgba(255, 255, 255, 0.8);
+    font-family: arial;
+    font-size: 1200%
+
+}
+
+
+/* Siin panen paika positsioonid kus distrode nimed võiksid kastis paikneda */
+
+.pos1 {
+    
+    top: 10%; left: 15%
+}
+
+.pos2 {
+    
+    top: 15%; right: 30%;
+   
+}
+
+.pos3 {
+    
+    bottom: 12%; left: 15%
+}
+
+.pos4 {
+    
+    bottom: 10%; right: 20%
+}
+
+.pos5 {
+    
+    top: 45%; left: 5%
+}
+
+.pos6 {
+    
+    top: 8%; left: 45%
+}
+
+.pos7 {
+    
+    bottom: 8%; left: 45%
+}
+
+.pos8 {
+    
+    top: 45%; right: 10%
+}
+
+.pos9 {
+    
+    top: 50%; left: 30%
+}
+
+
+/* Määran distro linkide stiili */
+
+.lingistiil {
+    font-size: 140%;
+    color: black;
+    font-family: arial;
+    position: absolute;
+    text-decoration: none;
+}
+
+.lingistiil:hover {
+    color: rgb(122, 24, 68);
+    text-shadow: 1px 1px 2px white;
 }
