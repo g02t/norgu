@@ -1,14 +1,10 @@
-p1, p3 {
+p.sissejuh {
     font-size: 130%;
     color: white;
-    font-family: arial
+    font-family: arial;
+    margin: 0 30px
 }
 
-p2 {
-    font-size: 110%;
-    color: white;
-    font-family: arial
-}
 
 body {
   background-color: #343e4f;
@@ -25,7 +21,7 @@ h1 {
 
 /* navbar */
 
-ul1 {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -33,18 +29,18 @@ ul1 {
   display: flex;
 }
 
-ul1 li a {
+ul li a {
   display: block;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-ul1 li a:hover:not(.active) {
+ul li a:hover:not(.active) {
   background-color: #111111;
 }
 
-ul1 li a.active {
+ul li a.active {
   background-color: #115d41;
 }
 
@@ -115,9 +111,9 @@ div.D {
 }
 
 
-/* Nüüd määran kastis oleva tähe stiili */
+/* Määran kastis oleva suure tähe stiili */
 
-h10 {
+.suurtaht {
     
     color: rgba(255, 255, 255, 0.8);
     font-family: arial;
@@ -126,7 +122,7 @@ h10 {
 }
 
 
-/* Siin panen paika positsioonid kus distrode nimed võiksid kastis paikneda */
+/* Panen paika positsioonid kus distrode nimed võiksid kastis paikneda */
 
 .pos1 {
     
@@ -175,11 +171,11 @@ h10 {
 }
 
 .pos10 {
-    top: 50%; right: 35%
+    top: 62%; right: 35%
 }
 
 .pos11 {
-    top: 35%; left: 8%
+    top: 40%; left: 9%
 }
 
 .pos12 {
@@ -191,11 +187,7 @@ h10 {
 }
 
 .pos14 {
-    top: 45%; right: 30%
-}
-
-.pos15 {
-
+    top: 32%; right: 30%
 }
 
 
@@ -203,7 +195,7 @@ h10 {
 /* Määran distro linkide stiili */
 
 .lingistiil {
-    font-size: 140%;
+    font-size: 160%;
     color: black;
     font-family: arial;
     position: absolute;

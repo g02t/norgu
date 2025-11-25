@@ -10,7 +10,7 @@ body {
 
 /* navbar*/
 
-ul1 {
+ul.nav {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -18,18 +18,18 @@ ul1 {
 	display: flex;
 }
 
-ul1 li a {
+ul.nav li a {
 	display: block;
 	color: white;
 	padding: 14px 16px;
 	text-decoration: none;
 }
 
-ul1 li a:hover:not(.active) {
+ul.nav li a:hover:not(.active) {
 	background-color: #111111;
 }
 
-ul1 li a.active {
+ul.nav li a.active {
 	background-color: #115d41;
 }
 
