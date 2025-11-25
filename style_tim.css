@@ -130,12 +130,12 @@ h10 {
 
 .pos1 {
     
-    top: 10%; left: 15%
+    top: 10%; left: 12%
 }
 
 .pos2 {
     
-    top: 15%; right: 30%;
+    top: 15%; right: 23%;
    
 }
 
@@ -151,17 +151,17 @@ h10 {
 
 .pos5 {
     
-    top: 45%; left: 5%
+    top: 65%; left: 3%
 }
 
 .pos6 {
     
-    top: 8%; left: 45%
+    top: 8%; left: 43%
 }
 
 .pos7 {
     
-    bottom: 8%; left: 45%
+    bottom: 8%; left: 47%
 }
 
 .pos8 {
@@ -173,6 +173,31 @@ h10 {
     
     top: 50%; left: 30%
 }
+
+.pos10 {
+    top: 50%; right: 35%
+}
+
+.pos11 {
+    top: 35%; left: 8%
+}
+
+.pos12 {
+    top: 24%; left: 22%
+}
+
+.pos13 {
+    top: 3%; right: 3%
+}
+
+.pos14 {
+    top: 45%; right: 30%
+}
+
+.pos15 {
+
+}
+
 
 
 /* Määran distro linkide stiili */
