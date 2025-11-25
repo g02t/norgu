@@ -1,101 +1,82 @@
-<!doctype html>
-<html lang="en">
-
-<ul1>
-  <li><a href="pealeht.html">Pealeht</a></li>
-  <li><a href="raimond.html" >Kasutajasõbralikkus</a></li>
-  <li><a href="tim.html">Serverid</a></li>
-  <li><a class="active" href="henry.html">Mängimine</a></li>
-</ul1>
-
+<!DOCTYPE html>
+<html lang="et">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style_henry.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linux Distrod Mängude Jaoks</title>
+    <link rel="stylesheet" type="text/css" href="style_henry.css">
 </head>
 <body>
-    <h1>Erinevad Linux Distrod Mängude jaoks</h1>
-        <p>Lühitutvustused erinevate distrode kohta ja soovitused.</p>
-    <h2>Sissejuhatus</h2>
-        <p>Linux on tänapäeval hea platvorm mängimiseks: Proton + Steam, kaasaegsed Mesa/Vulkan draiverid ja spetsiaalsed distrod teevad Linuxis mängimise lihtsamaks.</p>
 
+    <ul class="navbar">
+        <li><a href="pealeht.html">Pealeht</a></li>
+        <li><a href="raimond.html">Kasutajasõbralikkus</a></li>
+        <li><a href="tim.html">Serverid</a></li>
+        <li><a class="active" href="henry.html">Mängimine</a></li>
+    </ul>
 
+    <div class="container">
+        <h1>Erinevad Linux Distrod Mängude jaoks</h1>
+        <p>Siin on järjestatud parimad Linuxi distributsioonid mängimiseks (Tier List). Vajuta distro nimele, et näha selgitust.</p>
 
-<!-- Siit algab tier list -->
+        <div id="info-box" class="info-peidetud">
+            <h2 id="info-title">Vali distro</h2>
+            <p id="info-desc">Vajuta allpool olevas nimekirjas mõnele distrole, et näha selle plusse, miinuseid ja draiverite tuge.</p>
+        </div>
 
-  <div class="S">
+        <div class="tier S">
+            <div class="rank-letter">S</div>
+            <div class="distro-list">
+                <button class="distro-btn" onclick="avaInfo('nobara')">Nobara</button>
+                <button class="distro-btn" onclick="avaInfo('bazzite')">Bazzite</button>
+                <button class="distro-btn" onclick="avaInfo('garuda')">Garuda</button>
+                <button class="distro-btn" onclick="avaInfo('steamos')">SteamOS</button>
+                <button class="distro-btn" onclick="avaInfo('chimera')">ChimeraOS</button>
+            </div>
+        </div>
 
-    <div class="taht">
-      <h10>S</h10>
+        <div class="tier A">
+            <div class="rank-letter">A</div>
+            <div class="distro-list">
+                <button class="distro-btn" onclick="avaInfo('popos')">Pop!_OS</button>
+                <button class="distro-btn" onclick="avaInfo('endeavour')">EndeavourOS</button>
+                <button class="distro-btn" onclick="avaInfo('arch')">Arch Linux</button>
+                <button class="distro-btn" onclick="avaInfo('fedora')">Fedora</button>
+                <button class="distro-btn" onclick="avaInfo('cachy')">CachyOS</button>
+            </div>
+        </div>
+
+        <div class="tier B">
+            <div class="rank-letter">B</div>
+            <div class="distro-list">
+                <button class="distro-btn" onclick="avaInfo('mint')">Linux Mint</button>
+                <button class="distro-btn" onclick="avaInfo('ubuntu')">Ubuntu</button>
+                <button class="distro-btn" onclick="avaInfo('manjaro')">Manjaro</button>
+                <button class="distro-btn" onclick="avaInfo('opensuse')">openSUSE</button>
+                <button class="distro-btn" onclick="avaInfo('zorin')">Zorin OS</button>
+            </div>
+        </div>
+
+        <div class="tier C">
+            <div class="rank-letter">C</div>
+            <div class="distro-list">
+                <button class="distro-btn" onclick="avaInfo('debian')">Debian Stable</button>
+                <button class="distro-btn" onclick="avaInfo('elementary')">Elementary OS</button>
+                <button class="distro-btn" onclick="avaInfo('solus')">Solus</button>
+                <button class="distro-btn" onclick="avaInfo('deepin')">Deepin</button>
+            </div>
+        </div>
+
+        <div class="tier D">
+            <div class="rank-letter">D</div>
+            <div class="distro-list">
+                <button class="distro-btn" onclick="avaInfo('kali')">Kali Linux</button>
+                <button class="distro-btn" onclick="avaInfo('gentoo')">Gentoo</button>
+            </div>
+        </div>
+
     </div>
-    
-    <p>
-      
-      <a href="" class="lingistiil pos1"></a>
-      <a href="" class="lingistiil pos2"></a>
-      <a href="" class="lingistiil pos3"> </a>
-      <a href="" class="lingistiil pos4"></a>
-      <a href="" class="lingistiil pos5"> </a>
-      <a href="" class="lingistiil pos6"></a>
-      <a href="" class="lingistiil pos7"> </a>
-      <a href="" class="lingistiil pos8"> </a>
-      <a href="" class="lingistiil pos9"></a>
 
-    </p>
-
-
-  </div>
-
-  <div class="A">
-
-    <div class="taht">
-      <h10>A</h10>
-    </div>
-
-    <p>
-      
-      <a href="" class="lingistiil pos1"></a>
-      <a href="" class="lingistiil pos2"></a>
-      <a href="" class="lingistiil pos3"></a>
-
-    </p>
-
-  </div>
-
-  <div class="B">
-    <div class="taht">
-      <h10>B</h10>
-    </div>
-
-    <p>
-      
-    </p>
-
-  </div>
-
-  <div class="C">
-    <div class="taht">
-      <h10>C</h10>
-    </div>
-
-    <p>
-      
-    </p>
-
-  </div>
-
-  <div class="D">
-    <div class="taht">
-      <h10>D</h10>
-    </div> 
-
-    <p>
-      
-    </p>
-
-  </div>
-
-<!-- Siin lõpeb tier list -->
-
+    <script src="interactivity_henry.js"></script>
 </body>
 </html>
