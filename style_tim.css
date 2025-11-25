@@ -22,6 +22,9 @@ h1 {
     font-size: 300%
 }
 
+
+/* navbar */
+
 ul1 {
   list-style-type: none;
   margin: 0;
@@ -48,6 +51,11 @@ ul1 li a.active {
 a {
     font-family: arial
 }
+
+/* navbar lõpeb */
+
+
+/* Siit algab kastide disain */
 
 div.S {
     background-color: rgba(204, 102, 102, 0.958);
@@ -106,6 +114,9 @@ div.D {
     align-items: center;
 }
 
+
+/* Nüüd määran kastis oleva tähe stiili */
+
 h10 {
     
     color: rgba(255, 255, 255, 0.8);
@@ -115,11 +126,7 @@ h10 {
 }
 
 
-p {
-    font-size: 140%;
-    color: black;
-    font-family: arial
-}
+/* Siin panen paika positsioonid kus distrode nimed võiksid kastis paikneda */
 
 .pos1 {
     
@@ -167,8 +174,11 @@ p {
     top: 50%; left: 30%
 }
 
+
+/* Määran distro linkide stiili */
+
 .lingistiil {
-    font-size: 120%;
+    font-size: 140%;
     color: black;
     font-family: arial;
     position: absolute;
