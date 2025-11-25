@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="et">
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style_pealeht.css">
-  
-  <title>Linuxi distrod</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linuxi distrod</title>
+    <link rel="stylesheet" type="text/css" href="style_pealeht.css">
 </head>
 
-<ul>
-  <li><a class="active" href="pealeht.html">Pealeht</a></li>
-  <li><a href="raimond.html" >Kasutajasõbralikkus</a></li>
-  <li><a href="tim.html">Serverid</a></li>
-  <li><a href="henry.html">Mängimine</a></li>
-</ul>
-
-<h1>Linuxi distributsioonid ja nende kasutusvaldkonnad</h1>
-
 <body>
+    <ul class="navbar">
+        <li><a class="active" href="pealeht.html">Pealeht</a></li>
+        <li><a href="raimond.html">Kasutajasõbralikkus</a></li>
+        <li><a href="tim.html">Serverid</a></li>
+        <li><a href="henry.html">Mängimine</a></li>
+    </ul>
+    <div class="container">
+      
+        <h1>Linuxi distributsioonid ja nende kasutusvaldkonnad</h1>
+        <p class="intro">
+            Tere tulemast lehele, kus tutvustame erinevaid Linuxi distributsioone (distrosid) ja nende spetsiifilisi eeliseid erinevates valdkondades. Linux on paindlik operatsioonisüsteem, mida saab kohandada praktiliselt igaks otstarbeks. Allpool on toodud kolm peamist fookusala.
+        </p>
+      
+        <div class="category-grid">  
+          
+            <a href="raimond.html" class="category-card" id="card-kasutus">
+                <h2 class="card-title">👨‍💻 Kasutajasõbralikkus</h2>
+                <p>Distrod neile, kes on Linuxiga algajad või hindavad lihtsust ja kiiret seadistamist (nt Ubuntu, Mint).</p>
+            </a>
+            
+            <a href="tim.html" class="category-card" id="card-server">
+                <h2 class="card-title">🖥️ Serverid</h2>
+                <p>Distrod, mis on optimeeritud töökindluseks, turvalisuseks ja pikaajaliseks toeks, sobides serveritele ja ärilahendustele (nt Debian, RHEL).</p>
+            </a>
+            
+            <a href="henry.html" class="category-card" id="card-gaming">
+                <h2 class="card-title">🎮 Mängimine</h2>
+                <p>Distrod, mis pakuvad uusimaid draivereid ja optimeeritud tuge mängimiseks (nt Nobara, Pop!_OS, Arch).</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
