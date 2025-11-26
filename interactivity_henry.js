@@ -1,4 +1,5 @@
 // Andmebaas distrode infoga
+// Koodi kirjutas Henry, kasutasin AI-d, et teada, kust alustada ning mida mul võiks vaja minna koodi kirjutamiseks, kuid kõik muu otsisin siit: https://www.w3schools.com/js/
 const distrod = {
     // S-TIER
     nobara: {
@@ -160,3 +161,4 @@ function avaInfo(distroKey) {
         }, 300);
     }
 }
+
