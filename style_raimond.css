@@ -1,47 +1,24 @@
 /* styles.css */
-body {
-	font-family: Arial, sans-serif;
-}
-
-.container {
-	max-width: 800px;
-	margin: 0 auto;
-	padding: 20px;
-	border-radius: 8px;
-	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
 .tier {
 	margin-top: 20px;
 }
 
 .tier h2 {
-	background-color: #007BFF;
+	/*background-color: #007BFF;*/
 	color: white;
 	padding: 10px;
 	border-radius: 5px;
+	font-size: 500%;
 }
 
 .tier-list {
 	padding: 10px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	/*background: #e9ecef;*/
-	background-color: #342437;
 	margin: 5px 0;
 }
 
 head {
 	color: red;
 }
-
-body {
-	margin: 0;
-	padding: 0;
-	color: white;
-	background-color: #343e4f;
-}
-
 
 /* navbar*/
 
@@ -77,7 +54,7 @@ a {
 
 /* Siit algab kastide disain */
 
-div.S {
+.tier-S {
 	background-color: rgba(204, 102, 102, 0.958);
 	width: 100%;
 	padding: 70px;
@@ -89,7 +66,7 @@ div.S {
 
 }
 
-div.A {
+.tier-A {
 	background-color: rgba(255, 191, 127, 0.884);
 	width: 100%;
 	padding: 70px;
@@ -101,7 +78,7 @@ div.A {
 
 }
 
-div.B {
+.tier-B {
 	background-color: rgba(255, 223, 127, 0.96);
 	width: 100%;
 	padding: 70px;
@@ -112,7 +89,7 @@ div.B {
 	align-items: center;
 }
 
-div.C {
+.tier-C {
 	background-color: rgb(255, 255, 127, 0.9);
 	width: 100%;
 	padding: 70px;
@@ -123,7 +100,7 @@ div.C {
 	align-items: center;
 }
 
-div.D {
+.tier-D {
 	background-color: rgba(180, 220, 130, 0.7);
 	width: 100%;
 	padding: 70px;
@@ -144,72 +121,13 @@ h10 {
 	font-size: 1200%
 }
 
-
-/* Siin panen paika positsioonid kus distrode nimed võiksid kastis paikneda */
-
-.pos1 {
-
-	top: 10%;
-	left: 15%
-}
-
-.pos2 {
-
-	top: 15%;
-	right: 30%;
-
-}
-
-.pos3 {
-
-	bottom: 12%;
-	left: 15%
-}
-
-.pos4 {
-
-	bottom: 10%;
-	right: 20%
-}
-
-.pos5 {
-
-	top: 45%;
-	left: 5%
-}
-
-.pos6 {
-
-	top: 8%;
-	left: 45%
-}
-
-.pos7 {
-
-	bottom: 8%;
-	left: 45%
-}
-
-.pos8 {
-
-	top: 45%;
-	right: 10%
-}
-
-.pos9 {
-
-	top: 50%;
-	left: 30%
-}
-
-
 /* Määran distro linkide stiili */
 
 .lingistiil {
 	font-size: 140%;
 	color: black;
 	font-family: arial;
-	position: absolute;
+	position: relative;
 	text-decoration: none;
 }
 
@@ -257,16 +175,6 @@ ul.navbar li a.active {
 	background-color: #115d41;
 }
 
-/* Info kast */
-#info-box {
-	margin-top: 30px;
-	/* Jätab veidi ruumi tier-listi ja info vahele */
-}
-
-#info-box h2 {
-	color: #CC6666;
-}
-
 /* Tier kastide ülddisain */
 .tier {
 	width: 100%;
@@ -280,56 +188,6 @@ ul.navbar li a.active {
 	border-radius: 0;
 	box-shadow: none;
 	position: relative;
-}
-
-/* Tieride värvid */
-.S {
-	background-color: rgba(204, 102, 102, 0.958);
-}
-
-.A {
-	background-color: rgba(255, 191, 127, 0.884);
-}
-
-.B {
-	background-color: rgba(255, 223, 127, 0.96);
-}
-
-.C {
-	background-color: rgb(255, 255, 127, 0.9);
-}
-
-.D {
-	background-color: rgba(180, 220, 130, 0.7);
-}
-
-/* Suur tieri täht keskel */
-.rank-letter {
-	position: absolute;
-	/* Asetab tähe tieri keskele */
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 250px;
-	font-weight: bold;
-	color: rgba(255, 255, 255, 0.3);
-	/* Läbipaistev valge */
-	pointer-events: none;
-	/* Ei takista klikke nimedel */
-	z-index: 1;
-	/* Hoiab tähe nimede taga */
-}
-
-/* Distrode nimekiri kasti sees */
-.distro-list {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 10px;
-	padding: 20px;
-	/* Sisemine tühimik */
-	z-index: 2;
-	/* Hoiab nimed tähe ees */
-	width: 100%;
 }
 
 /* Lingi/nupu stiil */
