@@ -3,25 +3,25 @@ const distrod = {
     // S-TIER
     nobara: {
         nimi: "Nobara Project",
-        tekst: "S-Tier: See on Fedora versioon, mida arendab GloriousEggroll (Proton-GE looja). See sisaldab kõiki vajalikke parandusi kernelis, mis teevad mängimise ülimalt sujuvaks.",
+        tekst: "S-Tier: See on Fedora versioon, mida arendab GloriousEggroll (Proton-GE looja). See sisaldab kõiki vajalikke parandusi kernelis, mis teevad mängimise väga sujuvaks.",
         link: "https://nobaraproject.org/",
         draiveriTugi: "Sisaldab spetsiaalseid kernelitugevdusi ja paigaldab Nvidia/AMD draiverid automaatselt."
     },
     bazzite: {
         nimi: "Bazzite",
-        tekst: "S-Tier: Põhineb Fedora Atomicul. See on loodud pakkuma täpselt samasugust kogemust nagu Steam Deck, aga sinu lauaarvutis. Ideaalne pultidega mängimiseks ja HDR toega.",
+        tekst: "S-Tier: Põhineb Fedora Atomicul. See on loodud pakkuma täpselt samasugust kogemust nagu Steam Deck, aga lauaarvutis. Ideaalne pultidega mängimiseks ja HDR toega.",
         link: "https://bazzite.gg/",
         draiveriTugi: "Disainitud Valve'i riistvarale sarnaselt, tagades uusima ja stabiilse draiveritugi (Nvidia/AMD)."
     },
     garuda: {
         nimi: "Garuda Linux",
-        tekst: "S-Tier: Arch-põhine distro, mis on optimeeritud jõudluseks. Kasutab Zen kernelit ja Btrfs failisüsteemi. Väga silmapaistva 'Dragonized' disainiga.",
+        tekst: "S-Tier: Arch-põhine distro, mis on jõudluse jaoks optimeeritud. Kasutab Zen kernelit ja Btrfs failisüsteemi.",
         link: "https://garudalinux.org/",
-        draiveriTugi: "Arch-põhine (rolling-release) tagab koheselt uusimad Mesa/Nvidia draiverid ja Zen kernel on optimeeritud jõudlusele."
+        draiveriTugi: "Arch-põhine (rolling-release) tagab uusimad Mesa/Nvidia draiverid ja Zen kernel on optimeeritud jõudlusele."
     },
     steamos: {
         nimi: "SteamOS (Holo)",
-        tekst: "S-Tier: Valve'i ametlik operatsioonisüsteem Steam Deckile. See on teinud revolutsiooni Linuxi mängumaailmas. Arvutis kasutamiseks on soovitatav kasutada Bazzite'i või HoloISO-d.",
+        tekst: "S-Tier: Valve'i ametlik operatsioonisüsteem Steam Deckile. Arvutis kasutamiseks on soovitatav kasutada Bazzite'i või HoloISO-d.",
         link: "https://store.steampowered.com/steamos",
         draiveriTugi: "Disainitud ainult Steam Decki jaoks, draiverid on eelnevalt Valve'i poolt testitud ja paigaldatud."
     },
@@ -35,13 +35,13 @@ const distrod = {
     // A-TIER
     popos: {
         nimi: "Pop!_OS",
-        tekst: "A-Tier: Põhineb Ubuntul. Üks parimaid valikuid algajatele, eriti kui sul on Nvidia kaart, sest draiverid on juba ISO-sse sisse ehitatud.",
+        tekst: "A-Tier: Põhineb Ubuntul. Väga hea valik algajatele, eriti kui sul on Nvidia kaart, sest draiverid on juba ISO-sse sisse ehitatud.",
         link: "https://pop.system76.com/",
         draiveriTugi: "Saadaval on spetsiaalne Nvidia ISO, mis teeb paigalduse erakordselt lihtsaks. Kernel on kaasaegsem kui Ubuntul."
     },
     endeavour: {
         nimi: "EndeavourOS",
-        tekst: "A-Tier: 'Arch Linux, mida on lihtne paigaldada'. Annab sulle ligipääsu AUR-ile ja uusimale tarkvarale ilma keerulise seadistuseta.",
+        tekst: "A-Tier: Arch Linux, mida on lihtne paigaldada. Annab sulle ligipääsu AUR-ile ja uusimale tarkvarale ilma keerulise seadistuseta.",
         link: "https://endeavouros.com/",
         draiveriTugi: "Arch-i eelis - uusimad Mesa ja Nvidia draiverid on kergesti saadaval. Nõuab paigaldamisel ühekordset tegevust."
     },
@@ -55,11 +55,11 @@ const distrod = {
         nimi: "Fedora Workstation",
         tekst: "A-Tier: Kasutab väga uut tehnoloogiat (Pipewire, Wayland). Väga stabiilne, kuid vajab alguses natuke seadistamist, et kõik mängud tööle saada.",
         link: "https://getfedora.org/",
-        draiveriTugi: "AMD (Mesa) tugi on suurepärane. Nvidia tugi nõuab RPM Fusion repositooriumi lisamist."
+        draiveriTugi: "AMD (Mesa) tugi on väga hea. Nvidia tugi nõuab RPM Fusion repositooriumi lisamist."
     },
     cachy: {
         nimi: "CachyOS",
-        tekst: "A-Tier: Arch-põhine distro, mis on äärmuslikult optimeeritud kiiruse jaoks. Kasutab spetsiaalseid CPU instruktsioone, et võita mängudes paar lisakaadrit (FPS).",
+        tekst: "A-Tier: Arch-põhine distro, mis on äärmuslikult optimeeritud kiiruse jaoks. Kasutab spetsiaalseid CPU instruktsioone, et mängudes rohkem FPS'i saada.",
         link: "https://cachyos.org/",
         draiveriTugi: "Lisaks uusimatele draiveritele pakub ka spetsiaalseid kernelitugevdusi parima FPS-i saavutamiseks."
     },
@@ -67,7 +67,7 @@ const distrod = {
     // B-TIER
     mint: {
         nimi: "Linux Mint",
-        tekst: "B-Tier: Maailma kõige algajasõbralikum Linux. See on väga stabiilne. Miinuseks on vanemad paketid, mis võivad uuemate mängude puhul probleeme tekitada.",
+        tekst: "B-Tier: Kõige algajasõbralikum Linux. See on väga stabiilne. Miinuseks on vanemad paketid, mis võivad uuemate mängude puhul probleeme tekitada.",
         link: "https://www.linuxmint.com/",
         draiveriTugi: "Kasutab vanemat Ubuntu baasi, mis tähendab, et Mesa ja Kernel on vanemad. Mängimiseks võib vajada PPA-de lisamist."
     },
@@ -75,11 +75,11 @@ const distrod = {
         nimi: "Ubuntu",
         tekst: "B-Tier: Kõige tuntum Linux. Hea tugi, aga kasutab 'Snap' pakette, mis võivad olla aeglased. Mängimiseks täiesti sobiv.",
         link: "https://ubuntu.com/",
-        draiveriTugi: "Nvidia draiverite paigaldus on lihtne, kuid uuendused on harvad, mis jätab uuemad mängud ilma viimastest parandustest."
+        draiveriTugi: "Nvidia draiverite paigaldus on lihtne, kuid uuendused ei ole sagedased, mis jätab uuemad mängud ilma viimastest parandustest."
     },
     manjaro: {
         nimi: "Manjaro",
-        tekst: "B-Tier: Populaarne Arch-põhine distro. Lihtne kasutada, kuid uuendused viibivad vahel.",
+        tekst: "B-Tier: Populaarne Arch-põhine distro. Lihtne kasutada, kuid uuendused hilinevad vahel.",
         link: "https://manjaro.org/",
         draiveriTugi: "Üldiselt väga head draiverid (Arch), aga nende hilisem avaldamine võib uutele graafikakaartidele tuge pakkuda viivitusega."
     },
@@ -99,7 +99,7 @@ const distrod = {
     // C-TIER
     debian: {
         nimi: "Debian Stable",
-        tekst: "C-Tier: Linuxi vanaisa. Kaljukindel stabiilsus serverite jaoks, kuid mängimiseks on tarkvara liiga vana.",
+        tekst: "C-Tier: Linuxi 'vanaisa'. Hea stabiilsus serverite jaoks, kuid mängimiseks on tarkvara liiga vana.",
         link: "https://www.debian.org/",
         draiveriTugi: "Mängude jaoks kriitilised draiverid ja kernel on väga vanad, nõudes manuaalset backportingut 'non-free' repositooriumitest."
     },
@@ -123,12 +123,6 @@ const distrod = {
     },
 
     // D-TIER
-    kali: {
-        nimi: "Kali Linux",
-        tekst: "D-Tier: ÄRA KASUTA SEDA MÄNGIMISEKS! See on tööriist küberturvalisuse ekspertidele ja häkkeritele.",
-        link: "https://www.kali.org/",
-        draiveriTugi: "Sisaldab tihti vanemaid Kerneli versioone ja on seadistatud pentestinguks, mitte mängude jõudluseks."
-    },
     gentoo: {
         nimi: "Gentoo",
         tekst: "D-Tier: Ainult fanaatikutele. Iga programm tuleb ise lähtekoodist kompileerida. Mängu installimine võib võtta tunde.",
