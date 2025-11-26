@@ -3,6 +3,8 @@ head {
 }
 
 body {
+	margin: 0;
+	padding: 0;
 	color: white;
 	background-color: #343e4f;
 }
