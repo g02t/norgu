@@ -20,37 +20,6 @@ head {
 	color: red;
 }
 
-/* navbar*/
-
-ul.nav {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	background-color: #342437;
-	display: flex;
-}
-
-ul.nav li a {
-	display: block;
-	color: white;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-ul.nav li a:hover:not(.active) {
-	background-color: #111111;
-}
-
-ul.nav li a.active {
-	background-color: #115d41;
-}
-
-a {
-	font-family: arial;
-}
-
-/* navbar lõpeb */
-
 
 /* Siit algab kastide disain */
 
@@ -112,15 +81,6 @@ a {
 }
 
 
-/* Nüüd määran kastis oleva tähe stiili */
-
-h10 {
-
-	color: rgba(255, 255, 255, 0.8);
-	font-family: arial;
-	font-size: 1200%
-}
-
 /* Määran distro linkide stiili */
 
 .lingistiil {
@@ -136,13 +96,7 @@ h10 {
 	text-shadow: 1px 1px 2px white;
 }
 
-body {
-	background-color: #343e4f;
-	color: white;
 
-	font-family: Arial, sans-serif;
-	margin: 0;
-}
 
 .container {
 	max-width: 1000px;
@@ -150,30 +104,6 @@ body {
 	padding: 0 20px;
 }
 
-/* Navbar */
-ul.navbar {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	background-color: #342437;
-	display: flex;
-}
-
-ul.navbar li a {
-	display: block;
-	color: white;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-family: Arial;
-}
-
-ul.navbar li a:hover:not(.active) {
-	background-color: #111111;
-}
-
-ul.navbar li a.active {
-	background-color: #115d41;
-}
 
 /* Tier kastide ülddisain */
 .tier {

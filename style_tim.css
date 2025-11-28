@@ -1,56 +1,15 @@
 p.sissejuh {
     font-size: 130%;
-    color: white;
-    font-family: arial;
+    
     margin: 0 30px
 }
 
 
-body {
-    margin: 0;
-    padding: 0;
-  background-color: #343e4f;
-}
-
-
-
 h1 {
-    color: white;
+    
     text-align: center;
     font-size: 300%
 }
-
-
-/* navbar */
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #342437;
-  display: flex;
-}
-
-ul li a {
-  display: block;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul li a:hover:not(.active) {
-  background-color: #111111;
-}
-
-ul li a.active {
-  background-color: #115d41;
-}
-
-a {
-    font-family: arial
-}
-
-/* navbar lõpeb */
 
 
 /* Siit algab kastide disain */

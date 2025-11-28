@@ -1,0 +1,35 @@
+
+body {
+    background-color: #343e4f;
+    color: white; 
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+/* navbar */
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #342437;
+    display: flex;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+ul.navbar li a:hover:not(.active) {
+    background-color: #111111;
+}
+
+ul.navbar li a.active {
+    background-color: #115d41;
+}
