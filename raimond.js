@@ -5,7 +5,7 @@ const tierData = [
     },
     {
         "tier": "A",
-            "items": [{"name":  "ParrotOS", "url": "https://www.parrotsec.org/"},{"name":  "Q4OS", "url": "https://www.q4os.org/"},{"name":  "Tails", "url": "https://tails.net/"},{"name":  "Peppermint OS", "url": "https://peppermintos.com/"},{"name":  "Pinguy OS", "url": "https://pinguy-os.sourceforge.net/"},{"name":  "GalliumOS", "url": "https://galliumos.org/"},{"name":  "BlueOnyx", "url": "https://www.blueonyx.it/"},{"name":  "OpenMandriva Lx", "url": "https://www.openmandriva.org/"},{"name":  "Daphile", "url": "https://www.daphile.com/index.html"},{"name":  "Bluestar Linux", "url": "https://sourceforge.net/projects/bluestarlinux/"},{"name":  "Hyperbola", "url": "https://www.hyperbola.info/"}]
+        "items": [{"name":  "ParrotOS", "url": "https://www.parrotsec.org/"},{"name":  "Q4OS", "url": "https://www.q4os.org/"},{"name":  "Tails", "url": "https://tails.net/"},{"name":  "Peppermint OS", "url": "https://peppermintos.com/"},{"name":  "Pinguy OS", "url": "https://pinguy-os.sourceforge.net/"},{"name":  "GalliumOS", "url": "https://galliumos.org/"},{"name":  "BlueOnyx", "url": "https://www.blueonyx.it/"},{"name":  "OpenMandriva Lx", "url": "https://www.openmandriva.org/"},{"name":  "Daphile", "url": "https://www.daphile.com/index.html"},{"name":  "Bluestar Linux", "url": "https://sourceforge.net/projects/bluestarlinux/"},{"name":  "Hyperbola", "url": "https://www.hyperbola.info/"}]
     },
     {
         "tier": "B",
@@ -38,7 +38,8 @@ tierData.forEach(tier => { // Tee list ja pane need erinevatesse hinnangutesse j
             link.classList.add('lingistiil')
             return link.outerHTML; // Saab Lingi sellest
         });
-        tierList.innerHTML = itemLinks.join(', ');
+        thing = itemLinks.join(' - ');
+        tierList.innerHTML = thing;
     } else {
         tierList.textContent = 'No items';
     }

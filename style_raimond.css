@@ -1,25 +1,21 @@
 /* styles.css */
+
 .tier {
 	margin-top: 20px;
 }
 
 .tier h2 {
-	/*background-color: #007BFF;*/
 	color: white;
-	padding: 10px;
-	border-radius: 5px;
-	font-size: 500%;
+	padding: 0px 20px 0px 20px;
+	border-radius: 0px;
+	font-size: 900%;
+	align-self: center;
 }
 
 .tier-list {
 	padding: 10px;
 	margin: 5px 0;
 }
-
-head {
-	color: red;
-}
-
 
 /* Siit algab kastide disain */
 
@@ -84,7 +80,7 @@ head {
 /* Määran distro linkide stiili */
 
 .lingistiil {
-	font-size: 140%;
+	font-size: 200%;
 	color: black;
 	font-family: arial;
 	position: relative;
@@ -104,7 +100,6 @@ head {
 	padding: 0 20px;
 }
 
-
 /* Tier kastide ülddisain */
 .tier {
 	width: 100%;
@@ -114,26 +109,8 @@ head {
 	display: flex;
 	justify-content: space-between;
 	align-items: stretch;
-	padding: 0;
+	padding: 5% 0px 0px 0px;
 	border-radius: 0;
 	box-shadow: none;
 	position: relative;
-}
-
-/* Lingi/nupu stiil */
-.distro-btn {
-	background: none;
-	border: none;
-	font-size: 20px;
-	font-family: Arial;
-	color: black;
-	cursor: pointer;
-	text-decoration: none;
-	padding: 5px 10px;
-	transition: color 0.2s, text-shadow 0.2s;
-}
-
-.distro-btn:hover {
-	color: rgb(122, 24, 68);
-	text-shadow: 1px 1px 2px white;
 }
