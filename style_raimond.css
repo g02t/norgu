@@ -1,20 +1,38 @@
 /* styles.css */
+.margin {
+	margin: 1%;
+}
 
 .tier {
 	margin-top: 20px;
 }
 
 .tier h2 {
+	position: absolute;
+	inset: 0px;
+	margin: 0;
+	/* Kuvamisomadus määrab elemendi kuvamisviisi (renderdamiskasti tüübi). */
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	/* justify-content-omadus joondab paindliku konteineri elemendid juhul, kui elemendid ei kasuta kogu põhitelje (horisontaalse) olemasolevat ruumi. */
+	justify-content: center;
 	color: white;
-	padding: 0px 20px 0px 20px;
-	border-radius: 0px;
+	padding: 0 20px;
+	border-radius: 0;
 	font-size: 900%;
-	align-self: center;
+	opacity: 0.175;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
+	text-transform: uppercase;
 }
+
+
 
 .tier-list {
 	padding: 10px;
-	margin: 5px 0;
+	margin-left: 5%;
+	margin-right: 5%;
+	z-index: 2;
 }
 
 /* Siit algab kastide disain */
@@ -75,7 +93,6 @@
 	justify-content: center;
 	align-items: center;
 }
-
 
 /* Määran distro linkide stiili */
 

@@ -44,8 +44,8 @@ tierData.forEach(tier => { // Tee list ja pane need erinevatesse hinnangutesse j
         tierList.textContent = 'No items';
     }
 
-    tierDiv.appendChild(tierHeader);
     tierDiv.appendChild(tierList);
+    tierDiv.appendChild(tierHeader);
     tierListsContainer.appendChild(tierDiv);
 });
 
